@@ -1,16 +1,17 @@
 {
-  "engines":{
-"node":"v20.11.1"
+  "engines": {
+    "node": ">=20.11.0"
   },
   "name": "major_project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A major project for demonstrating deployment and development.",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.16.1",
